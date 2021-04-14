@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.bg {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-color: #19a2ae;
+  background-repeat: no-repeat, no-repeat;
+  background-position: left -88% bottom 200px, right -200px top 380px;
+}
+
+.bg .card {
+  position: absolute;
+  background: #ffffff;
+  width: 330px;
+  height: 352px;
+  border-radius: 15px;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.bg .card .profile-bg {
+  height: 133px;
+  background-image: url(../images/bg-pattern-card.svg);
+}
+
+.bg .card .profile-bg img {
+  height: 100px;
+  width: 100px;
+  border: 5px solid #fff;
+  border-radius: 100%;
+  position: relative;
+  bottom: -63%;
+  left: calc((330px - 100px) / 2);
+}
+
+.bg .card .text-container {
+  position: relative;
+  bottom: 0;
+}
+
+.bg .card .text-container .name {
+  height: 80px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 63px;
+  color: #2d3248;
+}
+
+.bg .card .text-container .name h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.bg .card .text-container .name h2 span {
+  font-weight: 400;
+  color: #757575;
+}
+
+.bg .card .text-container .name p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.bg .card .text-container .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-top: 1px solid #dadeec;
+  height: 84px;
+  width: 100%;
+  color: #2d3248;
+  text-align: center;
+}
+
+.bg .card .text-container .social h2 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.bg .card .text-container .social h2:nth-child(2) {
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.bg .card .text-container .social h2 span {
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.bg .attribution {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  line-height: 35px;
+}
+
+.bg .attribution a {
+  color: black;
+  text-decoration: none;
+}
+
+.bg .attribution a:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=style.css.map */
