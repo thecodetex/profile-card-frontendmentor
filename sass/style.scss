@@ -11,11 +11,10 @@
   position: relative;
   height: 100vh;
   width: 100%;
-  background-image: url("../images/bg-pattern-top.svg"),
-    url("../images/bg-pattern-bottom.svg");
-  background-color: hsl(185, 75%, 39%);
+  background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
   background-repeat: no-repeat, no-repeat;
-  background-position: left -88% bottom 200px, right -200px top 380px;
+  background-position: -61% 200%, 150% -145%;
+  background-color: #19A1AD;
 
   .card {
     position: absolute;
